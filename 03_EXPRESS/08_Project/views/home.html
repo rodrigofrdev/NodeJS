@@ -1,0 +1,29 @@
+<!-- views/login.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <h1>Welcome to the home page</h1>
+
+    <div style="display: flex; justify-content: space-evenly; width: 115px;">
+        <img src="time.jpg" alt="" height="50px" width="50px">
+        <p><span id="current-time"></span></p>
+    </div>
+
+    <script>
+        var currentTime = new Date();
+        var hours = currentTime.getHours();
+        var minutes = currentTime.getMinutes();
+        var formattedTime = hours + ':' + minutes;
+        document.getElementById('current-time').textContent = formattedTime;
+    </script>
+</body>
+
+</html>
