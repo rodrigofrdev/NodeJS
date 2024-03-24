@@ -1,0 +1,41 @@
+ /* Estilo para o corpo da página */
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f0f0f0;
+     display: flex;
+     justify-content: center;
+     /* Centraliza horizontalmente */
+     align-items: center;
+     /* Centraliza verticalmente */
+     height: 100vh;
+     /* Define a altura da página como 100% da altura da viewport */
+ }
+
+ /* Estilo para o contêiner do conteúdo */
+ .container {
+     text-align: center;
+     /* Centraliza o texto horizontalmente */
+ }
+
+ /* Estilo para a lista de usuários */
+ ul {
+     list-style-type: none;
+     /* Remove os marcadores de lista */
+     padding: 0;
+ }
+
+ /* Estilo para os itens da lista */
+ li {
+     margin-bottom: 10px;
+     /* Espaçamento entre os itens */
+     background-color: #fff;
+     /* Cor de fundo dos itens */
+     padding: 10px;
+     /* Espaçamento interno dos itens */
+     border-radius: 5px;
+     /* Borda arredondada */
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     /* Sombra */
+ }
