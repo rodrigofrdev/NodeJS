@@ -14,7 +14,7 @@ router.get('/', (req, res, next) => {
   // res.sendFile(path.join(rootDir, 'views', 'shop.html'));
 
   // Pug engine
-  res.render("shop", {prods: adminData.products, pageTitle: "Shop"});
+  res.render("shop", {prods: adminData.products, pageTitle: "Shop", hasProducts: adminData.products.length > 0});
 });
 
 module.exports = router;
